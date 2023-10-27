@@ -8,7 +8,7 @@
 
     <com.budiyev.android.codescanner.CodeScannerView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="@dimens/scanner_height"
         android:id="@+id/scanner_view"
         app:autoFocusButtonColor="@color/black"
         app:autoFocusButtonVisible="true"
@@ -18,15 +18,15 @@
 
     <TextView
         android:id="@+id/tv_textview"
-        android:layout_width="199dp"
+        android:layout_width="@dimens/scanner_width"
         android:layout_height="wrap_content"
         android:layout_below="@+id/scanner_view"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="SCAN THE QR CODE"
+        android:layout_marginStart="@dimens/margin_twenty_dp"
+        android:layout_marginTop="@dimens/margin_twenty_dp"
+        android:layout_marginEnd="@dimens/margin_twenty_dp"
+        android:layout_marginBottom="@dimens/margin_twenty_dp"
+        android:text="@strings/scan_qr_code"
         android:textAlignment="center"
         app:maskColor="@color/black" />
 
