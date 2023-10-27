@@ -16,13 +16,13 @@ import kotlinx.android.synthetic.main.activity_main2.tv_textview
 
 private const val  camcode=101
 
-class MainActivity2 : AppCompatActivity() {
+class ScannerActivity : AppCompatActivity() {
 
     private lateinit var codeScanner: CodeScanner
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_scanner)
 
         setuppernissions()
 

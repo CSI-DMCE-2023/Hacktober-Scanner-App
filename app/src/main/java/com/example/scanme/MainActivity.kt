@@ -3,7 +3,6 @@ package com.example.scanme
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.RadioButton
 import kotlinx.android.synthetic.main.activity_main.button
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
 
-            var intent= Intent(this, MainActivity2::class.java).apply{
+            var intent= Intent(this, ScannerActivity::class.java).apply{
                //dsfgghd
             }
             startActivity(intent)
